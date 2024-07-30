@@ -22,7 +22,7 @@ const About = () => {
             className="flex-1 mt-[300px] "
           >
             <img
-              className=" my-auto mx-auto rounded-full h-[600px] w-[520px]"
+              className=" my-auto mx-auto rounded-full h-[500px] w-[420px]"
               src={khaled2}
               alt=""
             />
