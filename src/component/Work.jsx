@@ -14,7 +14,7 @@ const Work = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="flex-1 flex flex-col gap-y-[105px] mb-10 lg:mb-0"
+            className="flex-1 flex flex-col gap-y-[90px] mb-10 lg:mb-0"
           >
             {/* text  */}
             <div>
@@ -55,18 +55,17 @@ const Work = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className=" flex-1 flex flex-col gap-y-10 "
+            className=" flex-1 flex flex-col gap-y-6 "
           >
             <div className="group relative overflow-hidden border-2 border-white/50  rounded-xl ">
               {/* overlay  */}
-              <div className=" group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              <div className=" group-hover:bg-black/70 w-full h-full absolute  z-40 transition-all duration-300"></div>
               {/* img */}
               <img
                 className=" group-hover:scale-125 transition-all duration-500"
-                src={img1}
+                src={img2}
                 alt=""
               />
-              {/* practice   */}
               <div className="absolute bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                 UI/UX Desing{" "}
               </div>
@@ -82,7 +81,7 @@ const Work = () => {
               {/* img */}
               <img
                 className=" group-hover:scale-125 transition-all duration-500"
-                src={img1}
+                src={img3}
                 alt=""
               />
               {/* practice   */}
