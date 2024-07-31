@@ -6,7 +6,7 @@ import { fadeIn } from "../component/variants";
 const Banner = () => {
   return (
     <section className="section min-h-[85vh] lg:min-h-[78vh]" id="home">
-      <div className="container mx-auto lg:mt-40">
+      <div className="container mx-auto">
         <div className=" flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           {/* text  */}
           <div className="font-secondary lg:text-left text-center flex-1">
@@ -86,10 +86,12 @@ const Banner = () => {
             </motion.div>
           </div>
           {/* img  */}
-          <motion.div  variants={fadeIn("down", 0.6)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}>
+          <motion.div
+            variants={fadeIn("down", 0.6)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+          >
             <img
               className="h-[400px] w-[550px] rounded-full hidden lg:flex flex-1"
               src={image}
