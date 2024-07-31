@@ -58,7 +58,7 @@ const About = () => {
                 </div>
                 <div className="max-w-max flex gap-x-6 items-center mx-auto lg:mx-0 mt-2">
                   <button className="btn btn-sm">Contact Me</button>
-                  <a href="#">My Protfolio</a>
+                  <p>My Protfolio</p>
                 </div>
               </div>
             </div>

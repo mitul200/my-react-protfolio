@@ -69,10 +69,10 @@ const Service = () => {
                         </p>
                       </div>
                       <div className="mb-2 flex flex-col items-end">
-                        <a href="">
+                        <p className=" cursor-pointer">
                           <BsArrowBarRight />
-                        </a>
-                        <a href="">{link}</a>
+                        </p>
+                        <p className=" cursor-pointer">{link}</p>
                       </div>
                     </div>
                   );

@@ -63,7 +63,7 @@ const Banner = () => {
               className="max-w-max flex gap-x-6 items-center   mx-auto lg:mx-0"
             >
               <button className="btn btn-sm">Contact Me</button>
-              <a href="#">My Protfolio</a>
+              <p>My Protfolio</p>
             </motion.div>
             {/* social icon  */}
 
@@ -74,15 +74,15 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className=" flex gap-x-6 mx-auto max-w-max lg:mx-0 w-[300px] mt-5"
             >
-              <a href="">
+              <p>
                 <FaGithub />
-              </a>
-              <a href="">
+              </p>
+              <p>
                 <FaFacebook />
-              </a>
-              <a href="">
+              </p>
+              <p>
                 <FaLinkedin />
-              </a>
+              </p>
             </motion.div>
           </div>
           {/* img  */}
