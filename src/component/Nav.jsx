@@ -1,7 +1,7 @@
 import { BiHomeAlt, BiUser } from "react-icons/bi";
 import { BsClipboardData, BsBriefcase, BsChatSquare } from "react-icons/bs";
-import { FaToolbox } from "react-icons/fa6";
 import { Link } from "react-scroll";
+import { FaTools } from "react-icons/fa";
 const Nav = () => {
   return (
     <nav className=" fixed bottom-2 lg:bottom-8 w-full z-50 overflow-hidden ">
@@ -43,7 +43,7 @@ const Nav = () => {
             to="technology"
             className=" w-[60px] h-[60px] flex items-center justify-center cursor-pointer "
           >
-            <FaToolbox />
+            <FaTools />
           </Link>
           <Link
             activeClass="active"

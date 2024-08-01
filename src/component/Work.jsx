@@ -21,7 +21,7 @@ const Work = () => {
             <div>
               <h2 className="h2 leading-tight text-accent">
                 my Latest <br />
-                Work
+                Projects
               </h2>
               <p className="max-w-sm mb-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore

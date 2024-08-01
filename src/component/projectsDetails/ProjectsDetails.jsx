@@ -3,9 +3,10 @@ import { fadeIn } from "../variants";
 import DetailsHeader from "./projects1/DetailsHeader";
 import { motion } from "framer-motion";
 import ProjectsCategory from "./projects1/ProjectsCategory";
+import AircncSkilles from "./projects1/AircncSkilles";
 const ProjectsDetails = () => {
   return (
-    <section className="bg-[#091f36]  bg-no-repeat bg-cover overflow-hidden">
+    <div className="bg-[#091f36] ">
       <DetailsHeader />
       <div>
         <motion.h1
@@ -28,13 +29,14 @@ const ProjectsDetails = () => {
         </motion.p>
 
         {/* swiper  */}
-        <div className="h-[700px] w-[700px] mx-auto">
+        <div className="w-[700px] mx-auto">
           <ProjectsCategory />
         </div>
-
-        <p> welcome my sssssssssssss</p>
+        <div>
+          <AircncSkilles />
+        </div>
       </div>
-    </section>
+    </div>
   );
 };
 

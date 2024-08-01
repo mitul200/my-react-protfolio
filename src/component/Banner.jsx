@@ -50,9 +50,10 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 mx-auto lg:mx-0 max-w-lg"
             >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
-              suscipit odit error iusto dicta, accusantium velit tenetur vel
-              repudiandae quas.
+              Welcome to my portfolio! Here, you can explore my projects,
+              skills, and professional journey. I'm thrilled to share my
+              experiences and accomplishments with you. Feel free to reach out
+              with any questions or collaborations.
             </motion.p>
 
             <motion.div
