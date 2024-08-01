@@ -4,6 +4,7 @@ import Contact from "./component/Contact";
 import Header from "./component/Header";
 import Nav from "./component/Nav";
 import Service from "./component/Service";
+import Technology from "./component/Technology";
 import Work from "./component/Work";
 
 const App = () => {
@@ -13,10 +14,11 @@ const App = () => {
       <Banner />
       <About />
       <Service />
+      <Technology />
       <Work />
       <Contact />
       <Nav />
-      {/* <div className="h-[6000px]"></div> */}
+      <div className="h-[6000px]"></div>
     </div>
   );
 };

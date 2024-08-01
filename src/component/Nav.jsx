@@ -34,6 +34,16 @@ const Nav = () => {
           >
             <BsChatSquare />
           </Link>
+          {/* technology */}
+          <Link
+            activeClass="active"
+            smooth={true}
+            spy={true}
+            to="technology"
+            className=" w-[60px] h-[60px] flex items-center justify-center cursor-pointer "
+          >
+            <BsBriefcase />
+          </Link>
           <Link
             activeClass="active"
             smooth={true}
