@@ -1,5 +1,6 @@
 import { BiHomeAlt, BiUser } from "react-icons/bi";
 import { BsClipboardData, BsBriefcase, BsChatSquare } from "react-icons/bs";
+import { FaToolbox } from "react-icons/fa6";
 import { Link } from "react-scroll";
 const Nav = () => {
   return (
@@ -42,7 +43,7 @@ const Nav = () => {
             to="technology"
             className=" w-[60px] h-[60px] flex items-center justify-center cursor-pointer "
           >
-            <BsBriefcase />
+            <FaToolbox />
           </Link>
           <Link
             activeClass="active"
