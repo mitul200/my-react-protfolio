@@ -2,8 +2,9 @@
 import { FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress, SiFirebase, SiMongodb } from "react-icons/si";
-import { fadeIn } from "../../variants";
+// import { fadeIn } from "../../variants";
 import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
 // import { BsBootstrap } from "react-icons/bs";
 
 const iconVariants = (duration) => ({
@@ -32,7 +33,7 @@ const ToursimSkills = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="text-4xl text-center mb-20"
           >
-            Aircnc project based on this{" "}
+            Toursim project based on this{" "}
             <span className="text-gradient">technology</span>
           </motion.h1>
           <motion.div

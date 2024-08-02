@@ -4,13 +4,12 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 // import { useRef } from "react";
 
-import image1 from "../../../assets/Aircnc-projects-assects/Screenshot Aircnc-banner.png";
-import image2 from "../../../assets/Aircnc-projects-assects/Screenshot reserve-room.png";
-import image3 from "../../../assets/Aircnc-projects-assects/Screenshot host-room.png";
-import image4 from "../../../assets/Aircnc-projects-assects/Screenshot Booking-page.png";
-import image5 from "../../../assets/Aircnc-projects-assects/Screenshot update-room.png";
-import image6 from "../../../assets/Aircnc-projects-assects/Screenshot Add-Room.png";
-import image7 from "../../../assets/Aircnc-projects-assects/Screenshot payment.png";
+import image1 from "../../assets/Tourism-assects/banner.png";
+import image2 from "../../assets/Tourism-assects/planning.png";
+import image3 from "../../assets/Tourism-assects/popular3.png";
+import image4 from "../../assets/Tourism-assects/watch4.png";
+import image5 from "../../assets/Tourism-assects/choose6.png";
+import image6 from "../../assets/Tourism-assects/artical5.png";
 
 const ToursimCategory = () => {
   return (
@@ -91,13 +90,6 @@ const ToursimCategory = () => {
             className="w-full h-auto object-cover rounded-3xl"
             src={image6}
             alt="Add Room"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            className="w-full h-auto object-cover rounded-3xl"
-            src={image7}
-            alt="Payment"
           />
         </SwiperSlide>
       </Swiper>

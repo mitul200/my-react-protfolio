@@ -1,6 +1,7 @@
 import img1 from "../assets/portfolio-img1.png";
 import img2 from "../assets/Aircnc-projects-assects/Screenshot Aircnc-banner.png";
-import img3 from "../assets/portfolio-img3.png";
+import img3 from "../assets/Tourism-assects/banner.png";
+// import img3 from "../assets/portfolio-img3.png";
 import { motion } from "framer-motion";
 import { fadeIn } from "./variants";
 import { Link } from "react-router-dom";
@@ -82,20 +83,22 @@ const Work = () => {
             {/* img 3  */}
             <div className="group relative overflow-hidden border-2 border-white/50  rounded-xl ">
               {/* overlay  */}
-              <div className=" group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              {/* img */}
-              <img
-                className=" group-hover:scale-125 transition-all duration-500"
-                src={img3}
-                alt=""
-              />
+              <Link to="/detailsToursim">
+                <div className=" group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+                {/* img */}
+                <img
+                  className="h-[315px] group-hover:scale-125 transition-all duration-500"
+                  src={img3}
+                  alt=""
+                />
+              </Link>
               {/* practice   */}
               <div className="absolute bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                UI/UX Desing{" "}
+                Travel Website
               </div>
               {/* title */}
               <div className="absolute bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span>projects title</span>
+                <span className="text-gradient">Toursim</span>
               </div>
             </div>
           </motion.div>
