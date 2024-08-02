@@ -3,6 +3,28 @@ import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../component/variants";
+
+// const GitHubProfileButton = () => {};
+
+const openGitHubProfile = () => {
+  window.open("https://github.com/mitul200", "_blank", "noopener,noreferrer");
+};
+
+const openLinkDingProfile = () => {
+  window.open(
+    "https://www.linkedin.com/in/khaled-bin-mahamud-530405313/",
+    "_blank",
+    "noopener,noreferrer"
+  );
+};
+const openFaceBookProfile = () => {
+  window.open(
+    "https://www.facebook.com/khalad.bin.18",
+    "_blank",
+    "noopener,noreferrer"
+  );
+};
+
 const Banner = () => {
   return (
     <section className="section min-h-[85vh] lg:min-h-[78vh]" id="home">
@@ -51,7 +73,7 @@ const Banner = () => {
               className="mb-8 mx-auto lg:mx-0 max-w-lg"
             >
               Welcome to my portfolio! Here, you can explore my projects,
-              skills, and professional journey. I'm thrilled to share my
+              skills, and professional journey. I am thrilled to share my
               experiences and accomplishments with you. Feel free to reach out
               with any questions or collaborations.
             </motion.p>
@@ -75,15 +97,15 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className=" flex gap-x-6 mx-auto max-w-max lg:mx-0 w-[300px] mt-5"
             >
-              <p>
+              <div onClick={openGitHubProfile}>
                 <FaGithub />
-              </p>
-              <p>
-                <FaFacebook />
-              </p>
-              <p>
+              </div>
+              <div onClick={openFaceBookProfile}>
                 <FaLinkedin />
-              </p>
+              </div>
+              <div onClick={openLinkDingProfile}>
+                <FaFacebook />
+              </div>
             </motion.div>
           </div>
           {/* img  */}
