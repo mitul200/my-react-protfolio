@@ -1,18 +1,18 @@
-// import Header from "../Header";
 import { fadeIn } from "../variants";
-import DetailsHeader from "./projects1/DetailsHeader";
+// import DetailsHeader from "./projects1/DetailsHeader";
 import { motion } from "framer-motion";
-import ProjectsCategory from "./projects1/ProjectsCategory";
-import AircncSkilles from "./projects1/AircncSkilles";
+// import ProjectsCategory from "./projects1/ProjectsCategory";
+// import AircncSkilles from "./projects1/AircncSkilles";
 import { FaLocationArrow } from "react-icons/fa";
 
 const openAircncSite = () => {
   window.open("https://aircnc-833bd.web.app/", "_blank", "noopener,noreferrer");
 };
-const ProjectsDetails = () => {
+
+const ToursimDetails = () => {
   return (
     <div className="bg-[#091f36] ">
-      <DetailsHeader />
+      {/* <DetailsHeader /> */}
       <div>
         <motion.h1
           variants={fadeIn("down", 0.3)}
@@ -21,7 +21,7 @@ const ProjectsDetails = () => {
           viewport={{ once: false, amount: 0.7 }}
           className="text-4xl uppercase mt-10 text-center"
         >
-          Wellcome to <span className="text-gradient">Aircnc</span>
+          Wellcome to <span className="text-gradient">Toursim</span>
         </motion.h1>
         <div className=" flex justify-center items-center gap-x-6">
           <motion.p
@@ -51,15 +51,11 @@ const ProjectsDetails = () => {
         </div>
 
         {/* swiper  */}
-        <div className="w-[700px] mx-auto">
-          <ProjectsCategory />
-        </div>
-        <div>
-          <AircncSkilles />
-        </div>
+        <div className="w-[700px] mx-auto">{/* <ProjectsCategory /> */}</div>
+        <div>{/* <AircncSkilles /> */}</div>
       </div>
     </div>
   );
 };
 
-export default ProjectsDetails;
+export default ToursimDetails;
