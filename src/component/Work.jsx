@@ -1,5 +1,5 @@
 import img1 from "../assets/portfolio-img1.png";
-import img2 from "../assets/portfolio-img2.png";
+import img2 from "../assets/Aircnc-projects-assects/Screenshot Aircnc-banner.png";
 import img3 from "../assets/portfolio-img3.png";
 import { motion } from "framer-motion";
 import { fadeIn } from "./variants";
@@ -33,15 +33,15 @@ const Work = () => {
             {/* img  */}
             <div className="group relative overflow-hidden border-2 border-white/50  rounded-xl ">
               {/* overlay  */}
-              <Link to="/details">
-                <div className=" group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-                {/* img */}
-                <img
-                  className=" group-hover:scale-125 transition-all duration-500"
-                  src={img1}
-                  alt=""
-                />
-              </Link>
+
+              <div className=" group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              {/* img */}
+              <img
+                className=" group-hover:scale-125 transition-all duration-500"
+                src={img1}
+                alt=""
+              />
+
               {/* practice   */}
               <div className="absolute bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                 UI/UX Desing{" "}
@@ -62,19 +62,21 @@ const Work = () => {
           >
             <div className="group relative overflow-hidden border-2 border-white/50  rounded-xl ">
               {/* overlay  */}
-              <div className=" group-hover:bg-black/70 w-full h-full absolute  z-40 transition-all duration-300"></div>
-              {/* img */}
-              <img
-                className=" group-hover:scale-125 transition-all duration-500"
-                src={img2}
-                alt=""
-              />
+              <Link to="/details">
+                <div className=" group-hover:bg-black/70 w-full h-full absolute  z-40 transition-all duration-300"></div>
+                {/* img */}
+                <img
+                  className="h-[315px] group-hover:scale-125 transition-all duration-500"
+                  src={img2}
+                  alt=""
+                />
+              </Link>
               <div className="absolute bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                UI/UX Desing{" "}
+                Tourist Website
               </div>
               {/* title */}
               <div className="absolute bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span>projects title</span>
+                <span className="text-gradient">Aircnc</span>
               </div>
             </div>
             {/* img 3  */}
