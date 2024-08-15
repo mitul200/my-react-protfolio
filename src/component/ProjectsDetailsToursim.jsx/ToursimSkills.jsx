@@ -33,7 +33,7 @@ const ToursimSkills = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="text-4xl text-center mb-20"
           >
-            Toursim project based on this{" "}
+            Toursim project based on this
             <span className="text-gradient">technology</span>
           </motion.h1>
           <motion.div
